@@ -5,23 +5,25 @@
   top: 0;
   right: 0;
   bottom: 0;
- /* background-image: url('file:///media/d_disk/ereme/GoogleDrive/HeadHunter/hh-html-css/assignment1/task-info/task-crop.png');
+  background-image: url('file:///media/d_disk/ereme/GoogleDrive/HeadHunter/hh-html-css/assignment1/task-info/task-crop.png');
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: top;  */
+  background-position: top;  
 }
 
 .form-panel{
   background: white;
-  /*background: rgba(255,0,0,0.5);*/
+  background: rgba(255,0,0,0.5);
   width: 778px;
   height: 604px;
   margin-top: 192px;
+  position: relative;
+  display: inline-block;
 }
 
 .icon-container{
   background: white;
-  /*background: rgba(0,255,0,0.5);*/
+  background: rgba(0,255,0,0.5);
   background-image: url('letter.png');
   background-size: auto;
   background-repeat: no-repeat;
@@ -29,8 +31,6 @@
 
   width: 100px;
   height: 100px;
-  position: relative;
-  top: -50px;
   
   border-radius: 50%; 
   border-color: #e7e7e7;
@@ -42,6 +42,15 @@
   font-family: 'Noto Sans', sans-serif;
   font-size: 30px;
   font-weight: normal;
-  margin-top: -13px;
   font-stretch: condensed;
+}
+
+.form-header{
+  position: absolute;
+  width: 100%;
+  top: -50px;
+}
+
+.form-title-panel{
+  padding-top: 58px; 
 }
