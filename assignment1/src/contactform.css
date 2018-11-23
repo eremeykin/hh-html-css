@@ -5,8 +5,8 @@
   top: 0;
   right: 0;
   bottom: 0;
-  background-image: url('file:///media/d_disk/ereme/GoogleDrive/HeadHunter/hh-html-css/assignment1/task-info/task-crop.png');
-  background-size: contain;
+  /*background-image: url('file:///media/d_disk/ereme/GoogleDrive/HeadHunter/hh-html-css/assignment1/task-info/task-crop.png');*/
+  background-size: auto;
   background-repeat: no-repeat;
   /*background-position: fixed;*/
   background-position: top;  
@@ -14,7 +14,7 @@
 
 .form-panel{
   background: white;
-  background: rgba(255,0,0,0.3);
+  /*background: rgba(255,0,0,0.3);*/
   /*background: none;*/
   width: 778px;
   height: 604px;
@@ -78,7 +78,7 @@
 .form-input{
   margin: 0;
   padding: 0;
-  border-width: 1px;
+  border-width: 2px;
   border-style: solid;
   border-color: #dbdbdb;
   border-radius: 5px; 
@@ -86,13 +86,20 @@
 
   background: white;
 
-  height: 60px;
   display: block;
   flex: 1;
 
   font-size: 20px;
   overflow: auto;
-  padding-left: 20px; 
+  padding-left: 23px; 
+  padding-top: 15px;
+  padding-bottom: 18px; 
+}
+
+
+.form-input:focus{
+  /*border: #fc6e7c;*/
+  border-color: #fc6e7c;
 }
 
 .contact-line{
