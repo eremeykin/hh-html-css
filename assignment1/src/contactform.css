@@ -5,8 +5,16 @@
   top: 0;
   right: 0;
   bottom: 0;
-  /*background-image: url('file:///media/d_disk/ereme/GoogleDrive/HeadHunter/hh-html-css/assignment1/task-info/task-crop.png');
+ /* background-image: url('file:///media/d_disk/ereme/GoogleDrive/HeadHunter/hh-html-css/assignment1/task-info/task-crop.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top;  */
+}
+
+.form-panel{
+  background: white;
+  /*background: rgba(255,0,0,0.5);*/
+  width: 778px;
+  height: 604px;
+  margin-top: 192px;
 }
