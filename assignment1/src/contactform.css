@@ -18,3 +18,22 @@
   height: 604px;
   margin-top: 192px;
 }
+
+.icon-container{
+  background: white;
+  /*background: rgba(0,255,0,0.5);*/
+  background-image: url('letter.png');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;  
+
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: -50px;
+  
+  border-radius: 50%; 
+  border-color: #e7e7e7;
+  border-style: solid;
+  border-width: 1px; 
+}
