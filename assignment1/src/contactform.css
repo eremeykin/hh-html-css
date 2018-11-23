@@ -13,7 +13,8 @@
 
 .form-panel{
   background: white;
-  background: rgba(255,0,0,0.5);
+  background: rgba(255,0,0,0.3);
+  /*background: none;*/
   width: 778px;
   height: 604px;
   margin-top: 192px;
@@ -23,7 +24,7 @@
 
 .icon-container{
   background: white;
-  background: rgba(0,255,0,0.5);
+  /*background: rgba(0,255,0,0.3);*/
   background-image: url('letter.png');
   background-size: auto;
   background-repeat: no-repeat;
@@ -56,16 +57,45 @@
 }
 
 .form-content{
-  background: red;
-  width: 100%;
+  font-size: 0;
+  display: inline-block;
+  letter-spacing: 30px; 
   height: 100%;
+  padding-top: 13px; 
+  padding-left: 70px;
+  padding-right: 70px; 
   
 }
 
 .black-flex{
-  background: rgba(55,55,55,0.5);
   height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
+}
+
+.form-input{
+  margin: 0;
+  padding: 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dbdbdb;
+
+
+  background: white;
+
+  height: 60px;
+  display: block;
+  flex: 1;
+
+  font-size: 20px;
+}
+
+.contact-line{
+  display: flex;
+  flex-direction: row;
+}
+
+.spacer{
+  width: 22px;
 }
