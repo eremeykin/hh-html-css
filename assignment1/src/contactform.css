@@ -8,6 +8,7 @@
   background-image: url('file:///media/d_disk/ereme/GoogleDrive/HeadHunter/hh-html-css/assignment1/task-info/task-crop.png');
   background-size: contain;
   background-repeat: no-repeat;
+  /*background-position: fixed;*/
   background-position: top;  
 }
 
@@ -80,6 +81,7 @@
   border-width: 1px;
   border-style: solid;
   border-color: #dbdbdb;
+  border-radius: 5px; 
 
 
   background: white;
@@ -89,6 +91,8 @@
   flex: 1;
 
   font-size: 20px;
+  overflow: auto;
+  padding-left: 20px; 
 }
 
 .contact-line{
