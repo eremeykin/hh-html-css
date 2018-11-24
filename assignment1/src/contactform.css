@@ -94,14 +94,14 @@
   width: 22px;
 }
 
-.tarea{
+.form-textarea{
   max-height: 200px;
   min-height: 50px;
   height: 158px;
   font-size: 16px;
 }
 
-.button{
+.form-submit-buttom{
   margin-top: 3px;
   margin-left: auto;
   height: 50px;
@@ -111,6 +111,6 @@
   color: white;
 }
 
-.button:hover{
+.form-submit-buttom:hover{
   background: #333;
 }
