@@ -9,11 +9,17 @@
 
 .form-panel{
   background: white;
-  width: 778px;
-  height: 604px;
-  margin-top: 192px;
   position: relative;
   display: inline-block;
+  margin-top: 192px;
+  width: 778px;
+  height: 604px;
+}
+
+.form-header{
+  position: absolute;
+  width: 100%;
+  top: -54px;
 }
 
 .icon-container{
@@ -21,15 +27,25 @@
   background-image: url('letter.png');
   background-size: auto;
   background-repeat: no-repeat;
-  background-position: center;  
-
-  width: 100px;
-  height: 100px;
-  
+  background-position: center;
   border-radius: 50%; 
   border-color: #e7e7e7;
   border-style: solid;
   border-width: 1px; 
+  width: 100px;
+  height: 100px;
+}
+
+.form-body{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+
+}
+
+.form-title-panel{
+  padding-top: 58px; 
 }
 
 .form-title{
@@ -40,16 +56,6 @@
   margin-bottom: 28px;
 }
 
-.form-header{
-  position: absolute;
-  width: 100%;
-  top: -54px;
-}
-
-.form-title-panel{
-  padding-top: 58px; 
-}
-
 .form-content{
   display: inline-block;
   height: 100%;
@@ -58,11 +64,9 @@
   overflow: auto;
 }
 
-.form-body{
-  height: 100%;
-  width: 100%;
+.content-line{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .form-input{
@@ -91,14 +95,8 @@
 
 }
 
-
 .form-input:focus{
   border-color: #fc6e7c;
-}
-
-.content-line{
-  display: flex;
-  flex-direction: row;
 }
 
 .spacer{
