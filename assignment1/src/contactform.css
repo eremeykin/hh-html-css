@@ -55,7 +55,7 @@
   height: 100%;
   padding-left: 70px;
   padding-right: 70px; 
-  
+  overflow: auto;
 }
 
 .form-body{
