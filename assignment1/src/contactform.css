@@ -66,6 +66,8 @@
 .content-line{
   display: flex;
   flex-direction: row;
+  margin-left: -11px;
+  margin-right: -11px;
 }
 
 .form-input{
@@ -84,14 +86,12 @@
   padding-bottom: 18px; 
   margin-top: 15px;
   margin-bottom: 15px;
+  margin-left: 11px;
+  margin-right: 11px; 
 }
 
 .form-input:focus{
   border-color: #fc6e7c;
-}
-
-.form-horizontal-spacer{
-  width: 22px;
 }
 
 .form-textarea{
