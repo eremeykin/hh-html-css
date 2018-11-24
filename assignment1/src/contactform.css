@@ -5,17 +5,10 @@
   top: 0;
   right: 0;
   bottom: 0;
-  /*background-image: url('file:///media/d_disk/ereme/GoogleDrive/HeadHunter/hh-html-css/assignment1/task-info/task-crop.png');*/
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: fixed;
-  background-position: top;  
 }
 
 .form-panel{
   background: white;
-  /*background: rgba(255,0,0,0.3);*/
-  /*background: none;*/
   width: 778px;
   height: 604px;
   margin-top: 192px;
@@ -25,7 +18,6 @@
 
 .icon-container{
   background: white;
-  /*background: rgba(0,255,0,0.3);*/
   background-image: url('letter.png');
   background-size: auto;
   background-repeat: no-repeat;
@@ -61,7 +53,6 @@
 .form-content{
   display: inline-block;
   height: 100%;
-  /*padding-top: 13px; */
   padding-left: 70px;
   padding-right: 70px; 
   
@@ -102,7 +93,6 @@
 
 
 .form-input:focus{
-  /*border: #fc6e7c;*/
   border-color: #fc6e7c;
 }
 
@@ -116,7 +106,6 @@
 }
 
 .tarea{
-  /*max-width: 100%;*/
   max-height: 200px;
   min-height: 50px;
   height: 158px;
@@ -130,9 +119,6 @@
   width: 97px;
   font-size: 18px;
   background: #fc4d5e;
-  /*border-style: solid;*/
-  /*border-width: 1px;*/
-  /*border-color: black; */
   color: white;
 }
 
