@@ -70,6 +70,7 @@
   border-radius: 2px; 
   padding: 15px 23px 18px;
   margin: 15px 11px;
+  outline: none;
 }
 
 .form-input:focus{
@@ -81,6 +82,7 @@
   min-height: 50px;
   height: 158px;
   font-size: 16px;
+  outline: none;
 }
 
 .form-submit-buttom{
@@ -91,6 +93,7 @@
   font-size: 18px;
   background: #fc4d5e;
   color: white;
+  outline: none;
 }
 
 .form-submit-buttom:hover{
