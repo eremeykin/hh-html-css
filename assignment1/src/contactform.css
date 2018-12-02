@@ -23,15 +23,9 @@
 }
 
 .icon-container{
-  background: white;
-  background-image: url('letter.png');
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: white url('letter.png') no-repeat center;
   border-radius: 50%; 
-  border-color: #e7e7e7;
-  border-style: solid;
-  border-width: 1px; 
+  border:  1px solid #e7e7e7;
   width: 100px;
   height: 100px;
 }
@@ -48,9 +42,7 @@
 }
 
 .form-title{
-  font-family: 'Noto Sans', sans-serif;
-  font-size: 30px;
-  font-weight: normal;
+  font: normal 30px 'Noto Sans', sans-serif;
   font-stretch: condensed;
   margin-bottom: 28px;
 }
@@ -58,16 +50,14 @@
 .form-content-panel{
   display: inline-block;
   height: 100%;
-  padding-left: 70px;
-  padding-right: 70px; 
+  padding: 0 70px; 
   overflow: auto;
 }
 
 .content-line{
   display: flex;
   flex-direction: row;
-  margin-left: -11px;
-  margin-right: -11px;
+  margin: 0 -11px;
 }
 
 .form-input{
@@ -76,18 +66,10 @@
   background: white;
   font-size: 20px;
   overflow: auto;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #dbdbdb;
+  border: 2px solid #dbdbdb;
   border-radius: 2px; 
-  padding-left: 23px; 
-  padding-right: 23px;
-  padding-top: 15px;
-  padding-bottom: 18px; 
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-left: 11px;
-  margin-right: 11px; 
+  padding: 15px 23px 18px;
+  margin: 15px 11px;
 }
 
 .form-input:focus{
