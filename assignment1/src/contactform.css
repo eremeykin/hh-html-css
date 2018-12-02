@@ -49,14 +49,13 @@
 .form-content-panel{
   display: inline-block;
   height: 100%;
-  padding: 0 70px 70px; 
+  padding: 0 59px 70px; 
   overflow: auto;
 }
 
 .content-line{
   display: flex;
   flex-direction: row;
-  margin: 0 -11px;
 }
 
 .form-input{
@@ -87,6 +86,7 @@
 .form-submit-buttom{
   margin-top: 3px;
   margin-left: auto;
+  margin-right: 11px;
   height: 50px;
   width: 97px;
   font-size: 18px;
