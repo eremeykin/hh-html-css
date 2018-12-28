@@ -1,0 +1,104 @@
+.viewport {
+  background: #dedede;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+}
+
+.form-panel {
+  background: white;
+  position: relative;
+  display: inline-block;
+  margin-top: 192px;
+  width: 778px;
+  margin: auto auto;
+}
+
+.form-header {
+  position: absolute;
+  width: 100%;
+  top: -54px;
+}
+
+.icon-container {
+  background: white url('letter.png') no-repeat center;
+  border-radius: 50%; 
+  border:  1px solid #e7e7e7;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.form-body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.form-title-panel {
+  padding-top: 58px; 
+  margin: 0 auto;
+}
+
+.form-title {
+  font: normal 30px 'Noto Sans', sans-serif;
+  font-stretch: condensed;
+  margin-bottom: 28px;
+}
+
+.form-content-panel {
+  display: inline-block;
+  height: 100%;
+  padding: 0 59px 59px; 
+  overflow: auto;
+}
+
+.content-line {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-element {
+  margin: 15px 11px;
+  outline: none;
+}
+
+.form-input {
+  display: block;
+  flex: 1;
+  background: white;
+  font-size: 20px;
+  overflow: auto;
+  border: 2px solid #dbdbdb;
+  border-radius: 2px; 
+  padding: 15px 23px 18px;
+}
+
+.form-input:focus {
+  border-color: #fc6e7c;
+}
+
+.form-textarea {
+  max-height: 200px;
+  min-height: 50px;
+  height: 158px;
+  font-size: 16px;
+}
+
+.form-submit-buttom {
+  margin-left: auto;
+  margin-right: 11px;
+  height: 50px;
+  width: 97px;
+  font-size: 18px;
+  background: #fc4d5e;
+  color: white;
+}
+
+.form-submit-buttom:hover {
+  background: #333;
+}
